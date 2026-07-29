@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Care Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Health Care Management System</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#register">Register</a>
+    <a href="#tips">Health Tips</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <h2>Welcome</h2>
+    <p>Welcome to our Health Care Management System.</p>
+</section>
+
+<section id="register">
+    <h2>Patient Registration</h2>
+
+    <form id="patientForm">
+
+        <input type="text" id="name" placeholder="Enter Name" required>
+
+        <input type="number" id="age" placeholder="Enter Age" required>
+
+        <input type="text" id="disease" placeholder="Disease" required>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+    <h3>Registered Patients</h3>
+
+    <ul id="patientList"></ul>
+
+</section>
+
+<section id="tips">
+
+<h2>Health Tips</h2>
+
+<ul>
+<li>Drink 8 glasses of water daily.</li>
+<li>Exercise at least 30 minutes.</li>
+<li>Eat healthy food.</li>
+<li>Sleep 7-8 hours every night.</li>
+</ul>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>Email: healthcare@gmail.com</p>
+
+<p>Phone: +92 300 1234567</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Health Care Management System</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
